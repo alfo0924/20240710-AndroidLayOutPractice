@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#1D1D1D"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -25,7 +26,10 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:layout_weight="1"
-            android:text="Button" />
+            android:backgroundTint="#DB880D"
+            android:text="Button"
+            android:textColor="#101010"
+            android:textColorLink="#EFB5B5" />
 
         <Button
             android:id="@+id/button2"
@@ -33,7 +37,10 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:layout_weight="1"
-            android:text="Button" />
+            android:backgroundTint="#DB880D"
+            android:text="Button"
+            android:textColor="#101010"
+            android:textColorLink="#EFB5B5" />
     </LinearLayout>
 
     <TextView
@@ -44,6 +51,7 @@
         android:layout_weight="1"
         android:text="Forget password ?"
         android:textAlignment="center"
+        android:textColor="#A9A5A5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -64,7 +72,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="E-mail :"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textColor="#E0DCDC" />
 
         <EditText
             android:id="@+id/editTextText"
@@ -73,7 +82,8 @@
             android:layout_weight="1"
             android:ems="10"
             android:hint="Input Email"
-            android:inputType="text" />
+            android:inputType="text"
+            android:textColorHint="#454444" />
     </LinearLayout>
 
     <LinearLayout
@@ -92,7 +102,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Password :"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textColor="#E0DCDC" />
 
         <EditText
             android:id="@+id/editTextText2"
@@ -101,6 +112,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:hint="Input Password"
-            android:inputType="text" />
+            android:inputType="text"
+            android:textColorHint="#454444" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
